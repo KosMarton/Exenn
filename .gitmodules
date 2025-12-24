@@ -1,0 +1,3 @@
+[submodule "Exenn/vendor/spdlog"]
+	path = Exenn/vendor/spdlog
+	url = https://github.com/gabime/spdlog

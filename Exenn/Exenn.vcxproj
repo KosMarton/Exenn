@@ -11,12 +11,14 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="src\Exenn\Log.h" />
     <ClInclude Include="src\Exenn.h" />
     <ClInclude Include="src\Exenn\Application.h" />
     <ClInclude Include="src\Exenn\Core.h" />
     <ClInclude Include="src\Exenn\EntryPoint.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="src\Exenn\Log.cpp" />
     <ClCompile Include="src\Exenn\Application.cpp" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
@@ -66,6 +68,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>XN_PLATFORM_WINDOWS;XN_BUILD_DLL;_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Exenn\vendor\spdlog\include;</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -80,6 +84,8 @@
       <SDLCheck>true</SDLCheck>
       <PreprocessorDefinitions>XN_PLATFORM_WINDOWS;XN_BUILD_DLL;NDEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
+      <AdditionalIncludeDirectories>$(SolutionDir)Exenn\vendor\spdlog\include;</AdditionalIncludeDirectories>
+      <AdditionalOptions>/utf-8 %(AdditionalOptions)</AdditionalOptions>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>

@@ -4,6 +4,9 @@
     <Filter Include="Exenn">
       <UniqueIdentifier>{A324230D-0F39-4BBE-D8BA-EE1D448E47EF}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Exenn\Events">
+      <UniqueIdentifier>{27DB1203-133E-A2A7-BCC3-DA5DA8056E2A}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\Exenn.h" />
@@ -15,6 +18,18 @@
     </ClInclude>
     <ClInclude Include="src\Exenn\EntryPoint.h">
       <Filter>Exenn</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Exenn\Events\ApplicationEvent.h">
+      <Filter>Exenn\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Exenn\Events\Event.h">
+      <Filter>Exenn\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Exenn\Events\KeyEvent.h">
+      <Filter>Exenn\Events</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Exenn\Events\MouseEvent.h">
+      <Filter>Exenn\Events</Filter>
     </ClInclude>
     <ClInclude Include="src\Exenn\Log.h">
       <Filter>Exenn</Filter>

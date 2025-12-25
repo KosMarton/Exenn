@@ -34,6 +34,7 @@
     <ClInclude Include="src\Exenn\Log.h">
       <Filter>Exenn</Filter>
     </ClInclude>
+    <ClInclude Include="src\xnpch.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\Exenn\Application.cpp">
@@ -42,5 +43,6 @@
     <ClCompile Include="src\Exenn\Log.cpp">
       <Filter>Exenn</Filter>
     </ClCompile>
+    <ClCompile Include="src\xnpch.cpp" />
   </ItemGroup>
 </Project>

@@ -1,9 +1,7 @@
 #pragma once
+#include "xnpch.h"
 
 #include "Exenn/Core.h"
-
-#include <string>
-#include <functional>
 
 namespace Exenn {
 

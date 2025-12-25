@@ -2,8 +2,6 @@
 
 #include "Event.h"
 
-#include <sstream>
-
 namespace Exenn {
 
 	class EXENN_API MouseMovedEvent : public Event

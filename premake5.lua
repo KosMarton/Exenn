@@ -18,6 +18,9 @@ project "Exenn"
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
 	objdir ("bin-int/" .. outputdir .. "/%{prj.name}")
 
+	pchheader "xnpch.h"
+	pchsource "Exenn/src/xnpch.cpp"
+
 	files
 	{
 		"%{prj.name}/src/**.h",
